@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\Proyecto\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {}
+    "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\Proyecto\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {
+    "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\Proyecto\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+        "projectUniqueName": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
         "projectName": "SC-701",
-        "projectPath": "C:\\xampp\\htdocs\\Proyecto\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
-        "packagesPath": "C:\\Users\\Cris2\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\Proyecto\\SC-701-Proyecto\\UI\\SC-701\\obj\\",
+        "projectPath": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+        "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cris2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
