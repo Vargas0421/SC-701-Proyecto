@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {}
+    "C:\\Projects\\PrograWeb\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {
+    "C:\\Projects\\PrograWeb\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+        "projectUniqueName": "C:\\Projects\\PrograWeb\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
         "projectName": "SC-701",
-        "projectPath": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
-        "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\obj\\",
+        "projectPath": "C:\\Projects\\PrograWeb\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+        "packagesPath": "C:\\Users\\jonco\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PrograWeb\\SC-701-Proyecto\\UI\\SC-701\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
