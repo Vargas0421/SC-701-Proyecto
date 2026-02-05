@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SC-701")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+184c004b1cc8aaa2cdef230bfc4d5e04f85b6762")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae50d10ca8c35b4fef051157c6a625fe03d425a2")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("SC-701")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SC-701")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

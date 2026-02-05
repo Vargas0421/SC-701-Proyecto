@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "NFyU6/d4qJY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+=======
+  "dgSpecHash": "lw2s5c74iIA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jviquezs\\OneDrive - DPDHL\\U Fide\\Repos\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

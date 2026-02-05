@@ -8,23 +8,39 @@
     "net10.0": []
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\Elias\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\jviquezs\\.nuget\\packages\\": {},
+>>>>>>> Stashed changes
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
       "projectName": "SC-701",
       "projectPath": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
       "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Elias\\Documents\\repositorios\\SC-701-Proyecto\\UI\\SC-701\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\jviquezs\\OneDrive - DPDHL\\U Fide\\Repos\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+      "projectName": "SC-701",
+      "projectPath": "C:\\Users\\jviquezs\\OneDrive - DPDHL\\U Fide\\Repos\\SC-701-Proyecto\\UI\\SC-701\\SC-701.csproj",
+      "packagesPath": "C:\\Users\\jviquezs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jviquezs\\OneDrive - DPDHL\\U Fide\\Repos\\SC-701-Proyecto\\UI\\SC-701\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< Updated upstream
         "C:\\Users\\Elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\jviquezs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +91,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+>>>>>>> Stashed changes
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
