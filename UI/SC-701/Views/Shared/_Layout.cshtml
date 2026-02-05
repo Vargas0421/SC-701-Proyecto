@@ -1,50 +1,104 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SC_701</title>
-    <script type="importmap"></script>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- CSS del sitio -->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SC_701.styles.css" asp-append-version="true" />
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SC_701</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 px-3 px-lg-5">
+
+                <!-- Logo -->
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand">
+                    <h1 class="m-0 text-primary">
+                        <span class="text-dark">RUTAS</span>TICAS
+                    </h1>
+                </a>
+
+                <!-- Botón responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+
+                <!-- Contenido del navbar -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+
+                    <!-- Botones izquierda -->
+                    <div class="navbar-nav me-auto py-0">
+                        <a asp-controller="Home" asp-action="Register"
+                           class="btn btn-success px-4 py-2 fw-bold me-2">
+                            <i class="fa fa-user-plus me-2"></i> Register
+                        </a>
+
+                        <a asp-controller="Home" asp-action="Login"
+                           class="btn btn-success px-4 py-2 fw-bold">
+                            <i class="fa fa-sign-in-alt me-2"></i> Login
+                        </a>
+                    </div>
+
+                    <!-- Menú derecha -->
+                    <div class="navbar-nav ms-auto py-0">
+                        <a asp-controller="Home" asp-action="Index" class="nav-item nav-link active">Inicio</a>
+                        <a asp-controller="Home" asp-action="About" class="nav-item nav-link">Nosotros</a>
+                        <a asp-controller="Home" asp-action="Services" class="nav-item nav-link">Servicios</a>
+                        <a asp-controller="Home" asp-action="Packages" class="nav-item nav-link">Paquetes</a>
+
+                        <!-- Dropdown -->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Más</a>
+                            <div class="dropdown-menu border-0 rounded-0 m-0">
+                                <a class="dropdown-item" asp-controller="Blog" asp-action="Index">Blog</a>
+                                <a class="dropdown-item" asp-controller="Blog" asp-action="Single">Artículo</a>
+                                <a class="dropdown-item" asp-controller="Destinations" asp-action="Index">Destinos</a>
+                                <a class="dropdown-item" asp-controller="Guides" asp-action="Index">Guías</a>
+                                <a class="dropdown-item" asp-controller="Testimonials" asp-action="Index">Testimonios</a>
+                            </div>
+                        </div>
+
+                        <a asp-controller="Home" asp-action="Contact" class="nav-item nav-link">Contacto</a>
+                    </div>
+
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <!-- Contenido principal -->
+    <div class="container mt-4">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - SC_701 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <!-- Footer -->
+    <footer class="border-top footer text-muted mt-5">
+        <div class="container text-center py-3">
+            &copy; 2026 - SC_701 | Todos los derechos reservados
         </div>
     </footer>
+
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
