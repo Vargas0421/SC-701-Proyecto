@@ -25,5 +25,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+app.UseStatusCodePagesWithRedirects("/Home/Error");
 
 app.Run();

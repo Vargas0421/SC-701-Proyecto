@@ -6,9 +6,20 @@ namespace SC_701.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index
         {
-            return View();
+            get
+            {
+                try
+                {
+                    return View();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    return RedirectToAction("Error");
+                }
+            }
         }
 
         public IActionResult Privacy()
