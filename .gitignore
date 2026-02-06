@@ -1,0 +1,7 @@
+# Visual Studio
+.vs/
+**/.vs/
+
+# Archivos temporales de VS
+*.slnx
+*.vsidx
